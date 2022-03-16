@@ -19,7 +19,9 @@ Fun project to easily generate MIDI using music notation.
 
 ## Features
 
-* TODO
+- [x] Chord Progression to MIDI
+- [ ] Variable length notes
+- [ ] Support for keys other than C
 
 ## Credits
 

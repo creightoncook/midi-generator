@@ -16,7 +16,6 @@ classifiers=[
     'Programming Language :: Python :: 3.6',
     'Programming Language :: Python :: 3.7',
     'Programming Language :: Python :: 3.8',
-    'Programming Language :: Python :: 3.9',
 ]
 packages = [
     { include = "midi_generator" },
@@ -26,6 +25,7 @@ packages = [
 [tool.poetry.dependencies]
 python = ">=3.6.2,<4.0"
 click = "8.0.1"
+midiutil = "1.2.1"
 
 black  = { version = "^21.5b2", optional = true}
 isort  = { version = "^5.8.0", optional = true}
